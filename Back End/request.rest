@@ -1,0 +1,18 @@
+
+###
+GET http://localhost:3001/api/history
+
+###
+POST http://localhost:3001/api/history
+Content-Type: application/json
+
+{
+    "idOrder": 4,
+    "namaCustomer": "Hakim Maulana",
+    "jenisOrder": "Gosend",
+    "dari": "Surabaya",
+    "menuju": "Bondowoso"
+}
+
+###
+GET http://localhost:3001/api/history/
